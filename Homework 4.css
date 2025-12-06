@@ -1,0 +1,298 @@
+  /*
+Name: Moises Diosdado
+Date created: 11-17-2025
+Date last edited: 12-05-2025
+Version: 4.7
+Description: Homework 4 CSS 
+*/
+
+header {
+    width: 100%;
+    background-color: #d2b48c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background: #ffebd1;
+  opacity: 90%;
+  margin: 0;
+  height: 100%;
+  min-height: 100vh;
+}
+
+form {
+  margin-left: 10%;
+  border-width:2pt;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-left: 10%;
+  text-align:center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  flex-grow: 1;
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+  margin-right: 30%;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder ;
+  flex-grow: 1;
+}
+
+h3{
+  font-size: 3em;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 5%;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder ;
+  flex-grow: 1;
+}
+
+main {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  flex-grow: 1;
+  }
+
+  .image {
+    text-align: left;
+    
+  }
+
+  .td1 {
+    text-align: right;
+    font-family: "optima";
+    font-weight: normal;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background-color: #ffef95;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px 5%;
+  box-sizing: border-box;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: left;
+}
+
+label {
+    text-align: left;
+    vertical-align: top;
+    font-family:fantasy;
+    font-weight: normal;
+}
+
+input {
+    text-align: center;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+textarea {
+    text-align:left;
+    font-family: "optima", sans-serif;
+    font-weight: bold;
+}
+
+#today {
+    text-align: right;
+    vertical-align: bottom;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-right: 50px;
+}
+
+td{
+  padding: 8px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.error {
+    color:red;
+    text-align: match-parent;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.pword-message {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+    right: 50px;
+    background:transparent;
+    padding: 10px;
+    border-spacing:2px;
+    border-radius: 20px;
+    color: black;
+}
+
+#review {
+  margin-top: 10px;
+}
+
+table.output, tr.output, td.output{
+  width: 500px;
+  background-color:steelblue;
+  padding: 10px;
+  border-spacing: 2px;
+  border-radius: 20px;
+  color:aliceblue;
+}
+
+td.output {
+  width: 500px;
+  background-color:mediumseagreen;
+  padding: 5px;
+  border-spacing: 2px;
+}
+
+#alert-box {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: transparent;
+}
+
+#alert-content {
+  background-color: #d2b48c;
+  border-radius: 10px;
+  border-style: solid;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+#alert-content h4 {
+  font-size: x-large;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: normal;
+}
+
+#close-alert {
+  background-color: #ffef95;
+  border-width: 2px;
+  border-style:solid;
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: bold;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+ .pword-message {
+    vertical-align: top;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    position: relative;
+    left: 20px;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 10px;
+    color: darkred;
+ }
+
+ table.output, tr.output,td.outputm {
+    width: 600px;
+    background-color: lightblue;
+    padding: 5px;
+    border-spacing: 2px;
+    border-radius: 10px;
+    color: darkblue;
+ }
+ 
+ td.outputdata {
+    width: 600px;
+    background-color: lightgreen;
+    padding: 5px;
+    border-spacing: 2px;
+    border-radius: 10px;
+    color: darkgreen;
+ }
+
+header{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  background-clip: unset;
+  transition: all 2s ease;
+  z-index: 1000;
+}
+#welcome1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder ;
+  flex-grow: 1;
+}
+#welcome2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder ;
+  flex-grow: 1;
+}
+
+.iframe-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.iframe-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.footer-info {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#p9 {
+  margin: 0;
+  font-size: 80%;
+  line-height: 1.2;
+}
